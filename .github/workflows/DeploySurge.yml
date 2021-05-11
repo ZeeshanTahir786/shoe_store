@@ -46,4 +46,4 @@ jobs:
 
       # Deployment to Surge
       - name: Execute Deployment to Surge
-        run: surge ./build http://privateshoe19.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build http://privateshoe19store.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
